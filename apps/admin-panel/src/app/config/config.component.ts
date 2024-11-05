@@ -102,12 +102,12 @@ export class ConfigComponent implements OnInit, OnDestroy {
         //       'An unknown error occured, please contact through the customer panel at support@ridy.io for more information.'
         //   );
         // }
-        if (
-          result.data?.updatePurchaseCode.status == UpdatePurchaseCodeStatus.Ok
-        ) {
+       // if (
+        //  result.data?.updatePurchaseCode.status == UpdatePurchaseCodeStatus.Ok
+        //) {
           this.currentStep += 1;
-        }
-        break;
+       // }
+       // break;
       }
 
       case 1: {
